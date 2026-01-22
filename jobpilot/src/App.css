@@ -1,0 +1,66 @@
+body {
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 420px;
+  margin: auto;
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.job-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.job-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.job-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.filters button {
+  font-size: 12px;
+}
+
+.job-card {
+  background: #f9fafb;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.job-card h3 {
+  margin: 0;
+}
+
+.job-card select {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
